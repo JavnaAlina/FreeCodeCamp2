@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="freecode2.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">My first Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help me improve the platform
+    </p>
+    <form action="" id="survey-form">
+      <label id="name-label" for="name"> <p>Name:</p></label>
+      <input id="name" type="text" placeholder="Enter your name" required />
+      <label id="email-label" for="email"> <p>Email:</p></label>
+      <input id="email" type="email" placeholder="Enter your email" required />
+      <label id="number-label" for="number"> <p>Age:</p></label>
+      <input
+        id="number"
+        type="number"
+        placeholder="Enter your age"
+        min="14"
+        max="79"
+        required
+      />
+      <p>Where are you from?</p>
+      <select name="" id="dropdown">
+          <option value="default">Northern Europe</option>
+          <option value="default">Western Europe</option>
+          <option value="default">Southern Europe</option>
+          <option value="default">Eastern Europe</option>
+          <option value="default">North America</option>
+          <option value="default">Central America and The Caribbean Countries</option>
+          <option value="default">South America</option>
+          <option value="default">Western Asia</option>
+          <option value="default">South and Central Asia</option>
+          <option value="default">East Asia</option>
+          <option value="default">Southern Asia</option>
+          <option value="default">Australia and Oceania</option>
+          <option value="default">North and Western Africa</option>
+          <option value="default">East Africa</option>
+          <option value="default">South and Central Africa</option>
+      </select>
+      <p>What social networks you use?</p>
+      <input type="radio" name="networks" value="1">Facebook</>
+      <br>
+      <input type="radio" name="networks" value="2">Instagram</input>
+      <br>
+      <input type="radio" name="networks" value="3">Twitter</input>
+      <br>
+      <input type="radio" name="networks" value="4">TikTok</input>
+      <br>
+      <input type="radio" name="networks" value="5">Other</input>
+      <p>How much time a day do you spend on social media?</p>
+      <input type="checkbox" name="time" value="1">Less than 1 hour</input>
+      <br>
+      <input type="checkbox" name="time" value="2">1-3 hours</input>
+      <br>
+      <input type="checkbox" name="time" value="3">3-5 hours</input>
+      <br>
+      <input type="checkbox" name="time" value="4">5-7 hours</input>
+      <br>
+      <input type="checkbox" name="time" value="5">more than 7 hours</input>
+      <br>
+      <textarea id="comment" cols="40" rows="4">Add your comment here:</textarea>
+      <br>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>

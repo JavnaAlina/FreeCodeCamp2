@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("https://st2.depositphotos.com/1496410/8449/v/450/depositphotos_84493196-stock-illustration-black-and-white-waves-background.jpg");
+  width: 600px;
+  padding: 20px;
+  margin: auto;
+}
+#title {
+  background-color: grey;
+  color: white;
+  border-color: black;
+  border-width: 5px;
+  border-style: double;
+}
+#description {
+  background-color: grey;
+  color: black;
+  border-color: black;
+  border-width: 5px;
+  border-style: double;
+}
+#survey-form {
+  background-color: grey;
+  color: black;
+  border-color: black;
+  border-width: 5px;
+  border-style: double;
+  border-radius: 10%;
+  text-align: left;
+  width: 600px;
+  padding: 20px;
+  margin: auto;
+}
+#name {
+  padding: 15px;
+  border-radius: 10px;
+}
+#email {
+  padding: 15px;
+  border-radius: 10px;
+}
+#number {
+  padding: 15px;
+  border-radius: 10px;
+}
+#dropdown {
+  padding: 15px;
+  border-radius: 10px;
+}
+#comment {
+  padding: 15px;
+  border-radius: 10px;
+}
+#submit {
+  padding: 15px;
+  border-radius: 10px;
+  width: 590px;
+  font-size: 20px;
+  border: none;
+  margin-top: 3%;
+  background-color: black;
+  color: white;
+}
